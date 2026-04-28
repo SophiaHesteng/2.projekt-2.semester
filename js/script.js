@@ -1,0 +1,1 @@
+//console.log("Helle from Script"); Koblingen er sket
