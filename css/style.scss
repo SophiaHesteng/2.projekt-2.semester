@@ -1,5 +1,17 @@
 @use 'partial';
 
+header{
+    background-color: partial.$headerColor;
+
+        .logo{
+        width: 90px;
+        height: auto;
+    }
+
+    nav{
+        display: none;  
+    }
+}
 
 .hero{
     width: 100%;
