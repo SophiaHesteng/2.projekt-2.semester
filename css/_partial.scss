@@ -2,7 +2,7 @@
 
 $bgColor: #fff;
 $headerColor: #D7C1B2; /*Bruges også til blokke i main*/
-$textColor: #333B21;
+$textColor: #000000;
 $fontTitle: 'Kristen ITC';
 $fontText: 'Kreon';
 $goodEnding: #4C673E;
@@ -12,3 +12,28 @@ $buttonColor: #BDA899;
 
 
 /*----Mixins----*/
+
+@mixin section($bgColor: $headerColor, $textColor: $textColor) {
+    background-color: $headerColor;
+    color: $textColor;
+    padding: 0.8em;
+    text-align: left;
+    font-family: $fontText;
+    font-size: 20px;
+    line-height: 1.5em;
+    border-radius: 0 50px 0 50px;
+    margin: 20px;
+}
+
+@mixin button($bgColor: $buttonColor, $textColor: $textColor, $button-padding: 0.5em 1em) {
+    background-color: $bgColor;
+    color: $textColor;
+    padding: $button-padding;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 300px;
+    font-family: $fontText bold;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -1,1 +1,19 @@
 @use 'partial';
+
+
+.hero{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    @include partial.section;
+}
+
+button{
+    @include partial.button;
+}
+
+ .startknap{
+    @include partial.button(partial.$goodEnding, #fff);
+}

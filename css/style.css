@@ -1,4 +1,46 @@
 @charset "UTF-8";
 /*----Variabler----*/
 /*Bruges også til blokke i main*/
-/*----Mixins----*//*# sourceMappingURL=style.css.map */
+/*----Mixins----*/
+.hero {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  background-color: #D7C1B2;
+  color: #000000;
+  padding: 0.8em;
+  text-align: left;
+  font-family: "Kreon";
+  font-size: 20px;
+  line-height: 1.5em;
+  border-radius: 0 50px 0 50px;
+  margin: 20px;
+}
+
+button {
+  background-color: #BDA899;
+  color: #000000;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 300px;
+  font-family: "Kreon" bold;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.startknap {
+  background-color: #4C673E;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 300px;
+  font-family: "Kreon" bold;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
