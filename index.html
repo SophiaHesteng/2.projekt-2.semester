@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Den Grønne Kop</title>
     
+    <script src="https://kit.fontawesome.com/1cd7809a70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
-    <script src="https://kit.fontawesome.com/1cd7809a70.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -27,6 +28,38 @@
 
         <section class="scenario active"> <!--Index 0-->
             <p>Du sidder på Den Grønne Kop med dine 4 studiekammerater og skal dele jeres projekt, alle jeres nuværende noter er gemt på din computer og I skal derfor have dem delt, så alle har adgang til dem.Hvordan deler du dem på den mest sikre måde?</p>
+            <button class="startknap">Start deling her</button>
+        </section>
+
+<!----------------------------------------------- Forgrenet scenarie ----------------------------------------------->
+        
+        <section class="scenario"> <!--Index 1-->
+            <h1 class="overskrift">Hvordan deler du filerne?</h1>
+                <button>Du opretter et hotspot fra din mobil</button>
+                <button>Du sender noterne gennem email</button>
+                <button>Du venter til at du kommer hjem på dit private netværk</button>
+                <button>Du lægger filerne på et USB-stik og deler gennem den</button>
+                <button>Du logger på caféens offentligt WiFi</button>
+        </section>
+
+        <section class="scenario"> <!--Index 2-->
+            <h2>Du har oprettet et hotspot fra din mobil</h2>
+                <button class="konsekvens">Du begrænser adgangen med en kode fra starten og sikrer at kun din gruppe har adgang</button>
+                    <!--Trykkes der på konsekvens knappen, popper denne "warning" op-->
+                        <p>Hov! Dine filer kan tilgås af alle på caféen, mon ikke du burde sætte kode på?</p>
+                            <p>Når du opretter et hotspot uden kode, så risikerer du at alle i nærheden kan komme på dit hotspot og få adgang til filerne.</p>
+                            <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
+                <button class="success">Du deler linket, men uden at begrænse adgangen</button>
+                    <!--Tillykke, du har fundet den sikre slutning!-->
+                        <p>Tillykke! Du har delt filerne med din studiegruppe sikkert og nu kan i arbejde videre og lave et godt projekt sammen!</p>
+        </section>
+
+        <section> <!--Index 3-->
+            <h3 class="overskrift">Hvordan fortsætter du?</h3>
+                <button class="usikker">Du deler filerne uden kontrol</button>
+                <!--Du har nået en usikker slutning-->
+                    <p>Årh nej! Du har delt uden nogen form for kontrol og har risikeret alle jeres hårde arbejde. Din bærbar bliver hacket af en fremmed, som sletter alle filerne på den. Din gruppe og dig er du meget presset over alt jeres mistede arbejde.</p>
+                <button class="success">Du begrænser adgangen med en kode og sikrer på den måde at kun din gruppe har adgang</button>
         </section>
     </main>
 </body>
