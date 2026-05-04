@@ -52,3 +52,10 @@ button{
  .startknap{
     @include partial.button(partial.$goodEnding, #fff);
 }
+
+.overskrift{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1em;
+}
