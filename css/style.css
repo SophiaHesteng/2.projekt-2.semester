@@ -2,15 +2,35 @@
 /*----Variabler----*/
 /*Bruges også til blokke i main*/
 /*----Mixins----*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 header {
   background-color: #D7C1B2;
+  margin-bottom: 15px;
 }
-header .logo {
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo {
   width: 90px;
   height: auto;
 }
-header nav {
-  display: none;
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-family: "Kreon";
+  margin-top: 1.3em;
+  margin-right: 3em;
+  font-size: 25px;
+}
+header nav ul a {
+  text-decoration: none;
 }
 
 .hero {

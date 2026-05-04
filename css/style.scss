@@ -1,15 +1,38 @@
 @use 'partial';
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 header{
     background-color: partial.$headerColor;
-
-        .logo{
-        width: 90px;
-        height: auto;
-    }
+    margin-bottom: 15px;
 
     nav{
-        display: none;  
+        display: flex;
+        justify-content: space-between;
+        
+
+            .logo{
+                width: 90px;
+                height: auto;
+            }
+
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+                font-family: partial.$fontText;
+                margin-top: 1.3em;
+                margin-right: 3em;
+                font-size: 25px;
+
+                a{
+                    text-decoration: none;   
+                }
+            }
     }
 }
 
