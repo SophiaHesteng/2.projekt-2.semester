@@ -30,7 +30,8 @@ header{
                 font-size: 25px;
 
                 a{
-                    text-decoration: none;   
+                    text-decoration: none;
+                    color: #000000;
                 }
             }
     }
@@ -43,6 +44,11 @@ header{
 
 section{
     @include partial.section;
+    display: none;
+
+    &.active{
+        display: block;
+    }
 }
 
 button{
