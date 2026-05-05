@@ -97,10 +97,6 @@ button {
   font-size: 40px;
   padding: 0.4em;
 }
-.good h3 {
-  font-size: 60px;
-  padding: 0.4em;
-}
 .good p {
   padding: 1em 0.2em;
 }
@@ -111,10 +107,6 @@ button {
 }
 .bad i {
   font-size: 40px;
-  padding: 0.4em;
-}
-.bad h4 {
-  font-size: 60px;
   padding: 0.4em;
 }
 .bad p {

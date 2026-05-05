@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+//-------------------------------------- Header --------------------------------------
 header{
     background-color: partial.$headerColor;
     margin-bottom: 15px;
@@ -36,7 +36,7 @@ header{
             }
     }
 }
-
+//-------------------------------------- Hovedindhold --------------------------------------
 .hero{
     width: 100%;
     height: auto;
@@ -55,7 +55,7 @@ button{
     @include partial.button;
 }
 
- .startknap{
+.startknap{
     @include partial.button(partial.$goodEnding, #fff);
 }
 
@@ -68,23 +68,18 @@ button{
 
 .good{
 
-text-align: center;
-background-color: partial.$goodEnding;
-color: #fff;
+    text-align: center;
+    background-color: partial.$goodEnding;
+    color: #fff;
 
-    i{
-        font-size: 40px;
-        padding: 0.4em;
-    }
+        i{
+            font-size: 40px;
+            padding: 0.4em;
+        }
 
-    h3{
-        font-size: 60px;
-        padding: 0.4em;
-    }
-
-    p{
-        padding: 1em 0.2em;
-    }
+        p{
+            padding: 1em 0.2em;
+        }
 }
 
 .bad{
@@ -96,15 +91,13 @@ color: #fff;
         padding: 0.4em;
     }
 
-    h4{
-        font-size: 60px;
-       padding: 0.4em; 
-    }
-
     p{
         padding: 1em 0.2em;
     }
 }
+
+
+//-------------------------------------- Footer --------------------------------------
 
 footer:nth-of-type(1){
     grid-column: 1/6;

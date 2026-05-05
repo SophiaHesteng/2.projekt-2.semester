@@ -41,8 +41,7 @@
             <h1 class="overskrift">Hvordan deler du filerne?</h1>
                 <button class="valg">Du opretter et hotspot fra din mobil</button>
                 <button class="valg">Du sender noterne gennem email</button>
-                <button class="valg">Du venter til at du kommer hjem på dit private netværk</button>
-                <button class="valg">Du lægger filerne på et USB-stik og deler gennem den</button>
+                <button class="valg">Du venter til at du kommer hjem på dit private netværk eller medbringer et USB-stik</button>
                 <button class="valg">Du logger på caféens offentligt WiFi</button>
         </section>
     <!----------------------------------- Hotspot ---------------------------------------->
@@ -58,37 +57,96 @@
         <section class="scenario good"> <!--Index 3-->
 
                             <!---- Tillykke, du har fundet den sikre slutning! ---->
-                    <div>
-                        <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
-                        <i class="fa-solid fa-star" style="color: #fbff00;"></i>
-                        <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
-                        <h3>Tillykke!</h3>
-                            <p>Du har delt filerne med din studiegruppe sikkert og nu kan i arbejde videre og lave et godt projekt sammen!</p>
-                            <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
-                     </div>
+            <div>
+                <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-star" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
+                    <h3 class="overskrift">Tillykke!</h3>
+                        <p>Du har delt filerne med din studiegruppe sikkert og nu kan i arbejde videre og lave et godt projekt sammen!</p>
+                        <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
+            </div>
          </section>
 
         <section class="scenario bad"> <!--Index 4-->
 
                             <!---- Øv! Du har nået en usikker slutning ---->
-                     <div>
-                        <i class="fa-solid fa-face-frown-open" style="color: #fbff00;"></i>
-                        <i class="fa-solid fa-thumbs-down" style="color: #fbff00;"></i>
-                        <h4>Årh nej!</h4> 
-                            <p>Du har delt uden nogen form for kontrol og har risikeret alle jeres hårde arbejde. Din bærbar bliver hacket af en fremmed, som sletter alle filerne på den. Din gruppe og dig, er meget presset over alt jeres mistede arbejde.</p>
-                    </div>
+            <div>
+                <i class="fa-solid fa-face-frown-open" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-down" style="color: #fbff00;"></i>
+                    <h4 class="overskrift">Årh nej!</h4> 
+                        <p>Du har delt uden nogen form for kontrol og har risikeret alle jeres hårde arbejde. Din bærbar bliver hacket af en fremmed, som sletter alle filerne på den. Din gruppe og dig, er meget presset over alt jeres mistede arbejde.</p>
+            </div>
         </section>
 
         <!----------------------------------- Email ---------------------------------------->
+        <section class="scenario"> <!-- Index 5-->
+            <h5 class="overskrift">Du vælger at sende gennem email</h5>
+                <button class="success">Du uploader til clouden og sender link</button>
+                <button class="konsekvens">Du sender filerne direkte i emailen</button> 
+        </section>
+
+        <section class="scenario good"> <!--Index 6-->
+
+                            <!---- Tillykke, du har fundet den sikre slutning! ---->
+            <div>
+                <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-star" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
+                    <h3 class="overskrift">Tillykke!</h3>
+                        <p>Du har uploadet jeres filer til Google Drive, sat adgangskode på og begrænset adgangen til din studiegruppe og i kan nu fortsætte jeres gode arbejde!</p>
+                        <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
+            </div>
+         </section>
+
+        <section class="scenario bad"> <!--Index 7-->
+
+                            <!---- Øv! Du har nået en usikker slutning ---->
+            <div>
+                <i class="fa-solid fa-face-frown-open" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-down" style="color: #fbff00;"></i>
+                    <h4 class="overskrift">Årh nej!</h4> 
+                        <p>Du har delt jeres filer direkte gennem email og risikerer at andre uvedkommende kan få filerne. Bare én stavefejl i emailadressen kan være nok.</p>
+            </div>
+        </section>
 
 
-        <!----------------------------------- Privat netværk eller USB ---------------------------------------->
+        <!----------------------------------- Privat netværk & USB ---------------------------------------->
 
+           <section class="scenario"> <!-- Index 8-->
+            <h5 class="overskrift">Du venter til at du kommer hjem på dit private netværk eller medbringer et USB-stik</h5>
+                <button class="success">Du fortæller gruppen at du deler alle filerne når du kommer hjem</button>
+                <button class="success">Du lægger filerne på et USB-stik og i deler den vej</button> 
+        </section>
 
+         <section class="scenario good"> <!--Index 9-->
+
+                            <!---- Tillykke, du har fundet den sikre slutning! ---->
+            <div>
+                <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-star" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
+                    <h3 class="overskrift">Godt gået!</h3>
+                        <p>Du vælger at dele filerne når du kommer hjem på privat netværk for at limitere risikoen for at noget får galt.</p>
+                        <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
+            </div>
+        </section>
+
+        <section class="scenario good"> <!--Index 10-->
+
+                            <!---- Tillykke, du har fundet den sikre slutning! ---->
+            <div>
+                <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-star" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
+                    <h3 class="overskrift">Godt tænkt!</h3>
+                        <p>God idé altid at have et USB-stik ved hånden.</p>
+                        <p>Husk altid at sikre dine data med at begrænse adgangen, så kun de rette får adgang til dine filer.</p>
+            </div>
+        </section>
         <!----------------------------------- Offentligt WiFi ---------------------------------------->
 
 
-        <footer class="medier">
+        <footer>
             <a href="#"><i class="fa-brands fa-square-instagram" style="color: #4C673E;"></i></a>
             <a href="#"><i class="fa-brands fa-square-pinterest" style="color: #4C673E;"></i></a>
         </footer>
