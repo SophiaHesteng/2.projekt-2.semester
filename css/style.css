@@ -88,9 +88,20 @@ button {
   line-height: 1em;
 }
 
-.feedback {
-  display: none;
+.good {
+  text-align: center;
+  background-color: #4C673E;
+  color: #fff;
 }
-.feedback.advice {
-  display: block;
+.good i {
+  font-size: 40px;
+  padding: 0.4em;
+}
+.good h3 {
+  text-align: center;
+  font-size: 60px;
+  padding: 0.4em;
+}
+.good p {
+  padding: 1em 0.2em;
 }/*# sourceMappingURL=style.css.map */

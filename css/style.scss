@@ -66,10 +66,25 @@ button{
     line-height: 1em;
 }
 
-.feedback{
-    display: none;
+.good{
 
-    &.advice{
-        display: block;
+text-align: center;
+background-color: partial.$goodEnding;
+color: #fff;
+
+    i{
+        font-size: 40px;
+        padding: 0.4em;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 60px;
+        padding: 0.4em;
+    }
+
+    p{
+        padding: 1em 0.2em;
     }
 }
+
