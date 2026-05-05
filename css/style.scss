@@ -65,3 +65,11 @@ button{
     padding: 10px;
     line-height: 1em;
 }
+
+.feedback{
+    display: none;
+
+    &.advice{
+        display: block;
+    }
+}
