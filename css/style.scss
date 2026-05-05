@@ -105,3 +105,27 @@ color: #fff;
         padding: 1em 0.2em;
     }
 }
+
+footer:nth-of-type(1){
+    grid-column: 1/6;
+    background-color: partial.$headerColor;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    padding: 1.3em;
+    text-align: center;
+
+    a{
+        font-size: 40px;
+    }
+}
+
+footer:nth-of-type(2){
+    grid-column: 1/6;
+    background-color: partial.$buttonColor;
+    text-align: center;
+
+        .footer-p{
+            font-size: 20px;
+            padding: 0.5em 0;
+        }
+}

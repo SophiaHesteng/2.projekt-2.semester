@@ -119,4 +119,26 @@ button {
 }
 .bad p {
   padding: 1em 0.2em;
+}
+
+footer:nth-of-type(1) {
+  grid-column: 1/6;
+  background-color: #D7C1B2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.3em;
+  text-align: center;
+}
+footer:nth-of-type(1) a {
+  font-size: 40px;
+}
+
+footer:nth-of-type(2) {
+  grid-column: 1/6;
+  background-color: #BDA899;
+  text-align: center;
+}
+footer:nth-of-type(2) .footer-p {
+  font-size: 20px;
+  padding: 0.5em 0;
 }/*# sourceMappingURL=style.css.map */
