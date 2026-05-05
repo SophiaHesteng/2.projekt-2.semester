@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: partial.$fontText;
 }
 //-------------------------------------- Header --------------------------------------
 header{
@@ -73,7 +74,7 @@ button{
     color: #fff;
 
         i{
-            font-size: 40px;
+            font-size: 50px;
             padding: 0.4em;
         }
 
@@ -87,7 +88,7 @@ button{
     background-color: partial.$badEnding;
 
     i{
-        font-size: 40px;
+        font-size: 50px;
         padding: 0.4em;
     }
 
