@@ -44,8 +44,8 @@ const nextScenario = (e) => {
             scenarios[3].classList.add("active");
         break;
 
-        case "Du deler filerne uden kontrol med kode":
-            console.log("Du deler filerne uden kontrol med kode was clicked");
+        case "Du deler filerne uden kontrol eller kode":
+            console.log("Du deler filerne uden kontrol eller kode was clicked");
             scenarios[2].classList.remove("active");
             scenarios[4].classList.add("active");
         break;
