@@ -56,6 +56,12 @@ button{
     @include partial.button;
 }
 
+.forfra{
+    display: flex;
+    justify-content: right;
+    color: #000000;
+}
+
 .overskrift{
     font-size: 40px;
     text-align: center;
