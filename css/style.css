@@ -165,7 +165,7 @@ footer:nth-of-type(2) .footer-p {
 @media screen and (min-width: 769px) and (max-width: 1920px) {
   .hero {
     display: block;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -175,7 +175,7 @@ footer:nth-of-type(2) .footer-p {
   }
   .start {
     position: absolute;
-    top: 65%;
+    bottom: 8%;
     left: 25%;
     width: 50%;
     z-index: 2;
@@ -184,5 +184,8 @@ footer:nth-of-type(2) .footer-p {
     width: 70%;
     display: flex;
     justify-self: center;
+  }
+  main .scenario {
+    margin: 0 auto 1em auto;
   }
 }/*# sourceMappingURL=style.css.map */

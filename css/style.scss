@@ -159,7 +159,7 @@ footer:nth-of-type(2){
     
     .hero{
         display: block;
-        width: 70%;
+        width: 80%;
         height: auto;
         margin: 0 auto;
         border-radius: 10px;
@@ -170,7 +170,7 @@ footer:nth-of-type(2){
 
     .start{
         position: absolute;
-        top: 65%;
+        bottom: 8%;
         left: 25%;
         width: 50%;
         z-index: 2;
@@ -180,6 +180,10 @@ footer:nth-of-type(2){
         width: 70%;
         display: flex;
         justify-self: center;
-    }
 
+        .scenario{
+            margin: 0 auto 1em auto;
+        }
+
+    }
 }
