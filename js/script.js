@@ -21,6 +21,8 @@ const nextScenario = (e) => {
             console.log("Start deling her was clicked");
             scenarios.forEach(s => s.classList.remove("active"));
             scenarios[1].classList.add("active");
+            scenarios[1].scrollIntoView({
+            behavior: "smooth"});
         break;
 
         case "Start forfra":
