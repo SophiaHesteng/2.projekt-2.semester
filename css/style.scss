@@ -54,11 +54,14 @@ section{
 
 button{
     @include partial.button;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+        &:hover{
+            background-color: darken(partial.$buttonColor, 10%);
+        }
 }
 
-.startknap{
-    @include partial.button(partial.$goodEnding, #fff);
-}
 
 .overskrift{
     font-size: 40px;
@@ -109,6 +112,7 @@ button{
 
     button{
         background-color: partial.$middleEnding;
+        color: partial.$textColor;
     }
 }
 

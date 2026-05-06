@@ -7,7 +7,8 @@ $fontText: 'Kreon';
 $goodEnding: #4C673E;
 $badEnding: #CE4C4C;
 $middleEnding: #f7c34a;
-$buttonColor: #BDA899;
+$buttonColor: #5A6766;
+$buttontextColor:white;
 
 
 /*----Mixins----*/
@@ -20,18 +21,19 @@ $buttonColor: #BDA899;
     font-size: 20px;
     line-height: 1.5em;
     border-radius: 0 50px 0 50px;
-    margin: 20px;
+    margin: 40px 20px;
 }
 
-@mixin button($bgColor: $buttonColor, $textColor: $textColor, $button-padding: 0.5em 1em) {
+@mixin button($bgColor: $buttonColor, $buttontextColor: $buttontextColor, $button-padding: 0.5em 1em) {
     background-color: $bgColor;
-    color: $textColor;
+    color: $buttontextColor;
     padding: $button-padding;
     text-decoration: none;
     text-align: center;
     border-radius: 300px;
     font-family: $fontText;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: lighter;
     font-size: 20px;
     width: 100%;
     margin: 20px 0;
