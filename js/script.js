@@ -147,7 +147,6 @@ const nextScenario = (e) => {
             scenarios[17].classList.remove("active");
             scenarios[19].classList.add("active");
         break;
-
         }
 }
 
