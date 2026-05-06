@@ -125,12 +125,12 @@ button {
   padding: 0.2em;
 }
 .warning button {
-  background-color: #E99949;
+  background-color: #f7c34a;
 }
 
 .semi {
   text-align: center;
-  background-color: #E99949;
+  background-color: #f7c34a;
 }
 .semi i {
   font-size: 50px;
