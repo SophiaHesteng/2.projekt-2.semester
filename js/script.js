@@ -136,12 +136,12 @@ const nextScenario = (e) => {
         case "Du afbryder forbindelsen til WiFi":
             console.log("Du afbryder forbindelsen til WiFi was clicked");
             scenarios[13].classList.remove("active");
-            scenarios[1].classeList.add("active");
+            scenarios[1].classList.add("active");
         break;
 
         case "Du opdager at din VPN ikke er aktiveret":
             console.log("Du opdager at din VPN ikke er aktiveret was clicked");
-            scenarios[13].classList.remove("acive");
+            scenarios[13].classList.remove("active");
             scenarios[14].classList.add("active");
         break;
 
@@ -153,7 +153,7 @@ const nextScenario = (e) => {
 
         case "Du reagerer på advarslen":
             console.log("Du reagerer på advarslen was clicked");
-            scenarios[16].classList.remove("active");
+            scenarios[17].classList.remove("active");
             scenarios[19].classList.add("active");
         break;
 

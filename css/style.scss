@@ -112,6 +112,20 @@ button{
     }
 }
 
+.semi{
+
+  text-align: center;
+    background-color: partial.$middleEnding;
+
+    i{
+        font-size: 50px;
+        padding: 0.4em;
+    }
+
+    p{
+        padding: 1em 0.2em;
+    }
+}
 
 //-------------------------------------- Footer --------------------------------------
 

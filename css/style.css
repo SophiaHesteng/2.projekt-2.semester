@@ -128,6 +128,18 @@ button {
   background-color: #E99949;
 }
 
+.semi {
+  text-align: center;
+  background-color: #E99949;
+}
+.semi i {
+  font-size: 50px;
+  padding: 0.4em;
+}
+.semi p {
+  padding: 1em 0.2em;
+}
+
 footer:nth-of-type(1) {
   grid-column: 1/6;
   background-color: #D7C1B2;
