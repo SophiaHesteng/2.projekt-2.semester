@@ -27,6 +27,15 @@ const nextScenario = (e) => {
             scenarios[8].classList.remove("active");
             scenarios[9].classList.remove("active");
             scenarios[10].classList.remove("active");
+            scenarios[11].classList.remove("active");
+            scenarios[12].classList.remove("active");
+            scenarios[13].classList.remove("active");
+            scenarios[14].classList.remove("active");
+            scenarios[15].classList.remove("active");
+            scenarios[16].classList.remove("active");
+            scenarios[17].classList.remove("active");
+            scenarios[18].classList.remove("active");
+            scenarios[19].classList.remove("active");
         break;
 // --------------------- Hotspot
         case "Du opretter et hotspot fra din mobil":
@@ -88,11 +97,68 @@ const nextScenario = (e) => {
         break;
 
 // --------------------- Offentligt WiFi
+        case "Du logger på caféens offentlige WiFi":
+            console.log("Du logger på caféens offentligt WiFi was clicked");
+            scenarios[1].classList.remove("active");
+            scenarios[11].classList.add("active");
+        break;
 
+        case "Hvad så nu?":
+            console.log("Hvad så nu? was clicked");
+            scenarios[11].classList.remove("active");
+            scenarios[12].classList.add("active");
+        break;
+
+        case "Du ignorer den og begynder at uploade jeres filer":
+            console.log("Du ignorer den og begynder at uploade jeres filer was clicked");
+            scenarios[12].classList.remove("active");
+            scenarios[16].classList.add("active");
+        break;
+
+        case "Hvad gør du nu?":
+            console.log("Hvad gør du nu? was clicked");
+            scenarios[16].classList.remove("active");
+            scenarios[17].classList.add("active");
+        break;
+
+        case "Du ignorer den nye advarsel":
+            console.log("Du ignorer den nye advarsel was clicked");
+            scenarios[17].classList.remove("active");
+            scenarios[18].classList.add("active");
+        break;
+
+        case "Du tjekker din sikkerhed med det samme":
+            console.log("Du tjekker din sikkerhed med det samme was clicked");
+            scenarios[12].classList.remove("active");
+            scenarios[13].classList.add("active");
+        break;
+
+        case "Du afbryder forbindelsen til WiFi":
+            console.log("Du afbryder forbindelsen til WiFi was clicked");
+            scenarios[13].classList.remove("active");
+            scenarios[1].classeList.add("active");
+        break;
+
+        case "Du opdager at din VPN ikke er aktiveret":
+            console.log("Du opdager at din VPN ikke er aktiveret was clicked");
+            scenarios[13].classList.remove("acive");
+            scenarios[14].classList.add("active");
+        break;
+
+        case "Du skynder dig at aktiverer din VPN og kan nu dele filerne sikkert":
+            console.log("Du skynder dig at aktiverer din VPN og kan nu dele filerne sikkert was clicked");
+            scenarios[14].classList.remove("active");
+            scenarios[15].classList.add("active");
+        break;
+
+        case "Du reagerer på advarslen":
+            console.log("Du reagerer på advarslen was clicked");
+            scenarios[16].classList.remove("active");
+            scenarios[19].classList.add("active");
+        break;
 
         }
 }
-
 
 //EventListener
  

@@ -97,6 +97,21 @@ button{
     }
 }
 
+.warning{
+    text-align: center;
+    background-color: #fff;
+    border: solid;
+    
+    i{
+        font-size: 70px;
+        padding: 0.2em;
+    }
+
+    button{
+        background-color: partial.$middleEnding;
+    }
+}
+
 
 //-------------------------------------- Footer --------------------------------------
 

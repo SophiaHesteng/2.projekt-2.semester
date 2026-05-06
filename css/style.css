@@ -115,6 +115,19 @@ button {
   padding: 1em 0.2em;
 }
 
+.warning {
+  text-align: center;
+  background-color: #fff;
+  border: solid;
+}
+.warning i {
+  font-size: 70px;
+  padding: 0.2em;
+}
+.warning button {
+  background-color: #E99949;
+}
+
 footer:nth-of-type(1) {
   grid-column: 1/6;
   background-color: #D7C1B2;

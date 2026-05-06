@@ -33,23 +33,23 @@
 
 
 <main>
-        <section class="scenario active"> <!--Index 0-->
+        <section class="scenario active"> <!--Index 0 -->
             <p>Du sidder på Den Grønne Kop med dine 4 studiekammerater og skal dele jeres projekt, alle jeres nuværende noter er gemt på din computer og I skal derfor have dem delt, så alle har adgang til dem.Hvordan deler du dem på den mest sikre måde?</p>
             <button class="startknap">Start deling her</button>
         </section>
 
-    <!----------------------------------- Forgrenet scenarie ---------------------------------------->
+    <!--------------------------- Forgrenet scenarie -------------------------------->
     
-        <section class="scenario"> <!--Index 1-->
+        <section class="scenario"> <!--Index 1 -->
             <h1 class="overskrift">Hvordan deler du filerne?</h1>
                 <button class="valg">Du opretter et hotspot fra din mobil</button>
                 <button class="valg">Du sender noterne gennem email</button>
                 <button class="valg">Du venter til at du kommer hjem på dit private netværk eller medbringer et USB-stik</button>
-                <button class="valg">Du logger på caféens offentligt WiFi</button>
+                <button class="valg">Du logger på caféens offentlige WiFi</button>
         </section>
-    <!----------------------------------- Hotspot ---------------------------------------->
+    <!------------------------------- Hotspot ------------------------------------>
 
-        <section class="scenario"> <!--Index 2-->
+        <section class="scenario"> <!--Index 2 -->
             <h2 class="overskrift">Du har oprettet et hotspot fra din mobil</h2>
 
                 <button class="success">Du begrænser adgangen med en kode fra starten og sikrer at kun din gruppe har adgang</button>
@@ -57,7 +57,7 @@
         </section>
 
 
-        <section class="scenario good"> <!--Index 3-->
+        <section class="scenario good"> <!--Index 3 -->
 
                             <!---- Tillykke, du har fundet den sikre slutning! ---->
             <div>
@@ -70,7 +70,7 @@
             </div>
          </section>
 
-        <section class="scenario bad"> <!--Index 4-->
+        <section class="scenario bad"> <!--Index 4 -->
 
                             <!---- Øv! Du har nået en usikker slutning ---->
             <div>
@@ -81,14 +81,15 @@
             </div>
         </section>
 
-        <!----------------------------------- Email ---------------------------------------->
-        <section class="scenario"> <!-- Index 5-->
+        <!---------------------------- Email --------------------------------->
+
+        <section class="scenario"> <!-- Index 5 -->
             <h2 class="overskrift">Du vælger at sende gennem email</h2>
                 <button class="success">Du uploader til clouden og sender link</button>
                 <button class="konsekvens">Du sender filerne direkte i emailen</button> 
         </section>
 
-        <section class="scenario good"> <!--Index 6-->
+        <section class="scenario good"> <!--Index 6 -->
 
                             <!---- Tillykke, du har fundet den sikre slutning! ---->
             <div>
@@ -101,7 +102,7 @@
             </div>
          </section>
 
-        <section class="scenario bad"> <!--Index 7-->
+        <section class="scenario bad"> <!--Index 7 -->
 
                             <!---- Øv! Du har nået en usikker slutning ---->
             <div>
@@ -113,15 +114,15 @@
         </section>
 
 
-        <!----------------------------------- Privat netværk & USB ---------------------------------------->
+        <!------------------------- Privat netværk & USB ----------------------------->
 
-           <section class="scenario"> <!-- Index 8-->
+           <section class="scenario"> <!-- Index 8 -->
             <h2 class="overskrift">Du venter til at du kommer hjem på dit private netværk eller medbringer et USB-stik</h2>
                 <button>Du fortæller gruppen at du deler alle filerne når du kommer hjem</button>
                 <button>Du lægger filerne på et USB-stik og i deler den vej</button> 
             </section>
 
-         <section class="scenario good"> <!--Index 9-->
+         <section class="scenario good"> <!--Index 9 -->
 
                             <!---- Tillykke, du har fundet den sikre slutning! ---->
             <div>
@@ -134,7 +135,7 @@
             </div>
         </section>
 
-        <section class="scenario good"> <!--Index 10-->
+        <section class="scenario good"> <!--Index 10 -->
 
                             <!---- Tillykke, du har fundet den sikre slutning! ---->
             <div>
@@ -147,15 +148,84 @@
             </div>
         </section>
 
-        <!----------------------------------- Offentligt WiFi ---------------------------------------->
+        <!---------------------------- Offentligt WiFi -------------------------------->
 
-        
-           <section class="scenario"> <!-- Index 11-->
-            <h2 class="overskrift">Du venter til at du kommer hjem på dit private netværk eller medbringer et USB-stik</h2>
-                <button>Du fortæller gruppen at du deler alle filerne når du kommer hjem</button>
-                <button>Du lægger filerne på et USB-stik og i deler den vej</button> 
+           <section class="scenario warning"> <!-- Index 11 -->
+            <h2 class="overskrift">Du logger på caféens offentlige WiFi</h2>
+                      <i class="fa-solid fa-triangle-exclamation" style="color: red; "></i>
+                <h3>PAS PÅ!</h3>
+                    <p>Netværket er ikke sikkert!</p>
+                    <button>Hvad så nu?</button>
             </section>
 
+            <section class="scenario"> <!-- Index 12 -->
+            <h2 class="overskrift">Hvordan reagerer du på advarslen?</h2>
+                <button>Du ignorer den og begynder at uploade jeres filer</button>
+                <button>Du tjekker din sikkerhed med det samme</button> 
+            </section>
+
+            <section class="scenario"> <!-- Index 13 -->
+            <h2 class="overskrift">Du tjekker din sikkerhed</h2>
+                <button>Du afbryder forbindelsen til WiFi</button> <!--Sendes tilbage til start-->
+                <button>Du opdager at din VPN ikke er aktiveret</button> 
+            </section>
+
+            <section class="scenario"> <!-- Index 14 -->
+            <h2 class="overskrift">Du opdager at din VPN ikke er aktiveret</h2>
+                <button>Du skynder dig at aktiverer din VPN og kan nu dele filerne sikkert</button>
+            </section>
+          <section class="scenario good"> <!--Index 15 -->
+
+                            <!---- Tillykke, du har fundet den sikre slutning! ---->
+            <div>
+                <i class="fa-solid fa-face-grin-beam" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-star" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-up" style="color: #fbff00;"></i>
+                    <h2 class="overskrift">Hvor er du god!</h2>
+                        <p>VPN gør din forbindelse til det offentlige WiFi mere privat og sikker.</p>
+                        <p>Se det om en tunnel mellem din enhed og internettet som fremmede ikke kan komme ind i.</p>
+            </div>
+        </section>
+
+        <section class="scenario warning"> <!-- Index 16 -->
+            <h2 class="overskrift">Du har valgt at dele filerne trods advarslen</h2>
+                <h3>PLING!</h3>
+                      <i class="fa-solid fa-triangle-exclamation" style="color: red;"></i>
+                    <p>Du får en notifikation om mistænkelig aktivitet på din konto</p>
+                    <button>Hvad gør du nu?</button>
+        </section>
+
+         <section class="scenario"> <!-- Index 17 -->
+            <h2 class="overskrift">Hvordan reagerer du på den nye advarsel?</h2>
+                <button>Du ignorer den nye advarsel</button>
+                <button>Du reagerer på advarslen</button> 
+            </section>
+
+               <section class="scenario bad"> <!--Index 18 -->
+
+                            <!---- Øv! Du har nået en usikker slutning ---->
+            <div>
+                <i class="fa-solid fa-face-frown-open" style="color: #fbff00;"></i>
+                <i class="fa-solid fa-thumbs-down" style="color: #fbff00;"></i>
+                    <h2 class="overskrift">Det måtte ikke ske!</h2> 
+                        <p>Din skærm fryser og da den endelig kommer tilbage, er alle filer på din computer blevet slettet.</p>
+                        <p>Du er blevet hacket. Pas nu på din data!</p>
+            </div>
+        </section>
+
+
+           <section class="scenario semi"> <!--Index 19 -->
+
+                            <!---- Øv! Du har nået en mellem slutning ---->
+            <div>
+                <i class="fa-solid fa-face-meh" style="color: #fbff00;"></i>
+               <i class="fa-solid fa-face-tired" style="color: #fbff00;"></i>
+                    <h2 class="overskrift">Puha det var tæt på!</h2> 
+                        <p>Du ændrer din adgangskode og redder din konto, men i har mistet tid.</p>
+                        <p>Pas på din data!</p>
+            </div>
+        </section>
+        <!---------------------------------- Footer --------------------------------->
 
         <footer>
             <a href="#"><i class="fa-brands fa-square-instagram" style="color: #4C673E;"></i></a>
