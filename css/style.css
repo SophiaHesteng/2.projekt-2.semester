@@ -72,7 +72,7 @@ button {
   transition: 0.3s ease-in-out;
 }
 button:hover {
-  background-color: rgb(66.2176165803, 75.7823834197, 75.0466321244);
+  background-color: rgb(42.4352331606, 48.5647668394, 48.0932642487);
 }
 
 .overskrift {
@@ -153,6 +153,7 @@ footer:nth-of-type(2) {
 footer:nth-of-type(2) .footer-p {
   font-size: 20px;
   padding: 0.5em 0;
+  color: white;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1920px) {

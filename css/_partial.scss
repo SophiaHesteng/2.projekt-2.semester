@@ -25,16 +25,22 @@ $buttontextColor:white;
 }
 
 @mixin button($bgColor: $buttonColor, $buttontextColor: $buttontextColor, $button-padding: 0.5em 1em) {
-    background-color: $bgColor;
-    color: $buttontextColor;
-    padding: $button-padding;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 300px;
-    font-family: $fontText;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    font-size: 20px;
-    width: 100%;
-    margin: 20px 0;
+  background-color: $bgColor;
+  color: $buttontextColor;
+  padding: $button-padding;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 300px;
+  font-family: $fontText;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 20px;
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darken($bgColor, 20%);
+  }
 }

@@ -54,14 +54,7 @@ section{
 
 button{
     @include partial.button;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-
-        &:hover{
-            background-color: darken(partial.$buttonColor, 10%);
-        }
 }
-
 
 .overskrift{
     font-size: 40px;
@@ -154,10 +147,11 @@ footer:nth-of-type(2){
         .footer-p{
             font-size: 20px;
             padding: 0.5em 0;
+            color: partial.$buttontextColor;
         }
 }
 
-//----------------------- Desktop
+//----------------------------------- Desktop --------------------------------------
 
 @media screen and (min-width: 769px) and (max-width: 1920px){
     
