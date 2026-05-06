@@ -34,7 +34,6 @@ const nextScenario = (e) => {
             console.log("Du opretter et hotspot fra din mobil was clicked");
             scenarios[1].classList.remove("active");
             scenarios[2].classList.add("active");
-            
         break;
 
         case "Du begrænser adgangen med en kode fra starten og sikrer at kun din gruppe har adgang":
