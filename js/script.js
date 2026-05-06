@@ -19,25 +19,8 @@ const nextScenario = (e) => {
     switch (e.target.textContent) {
         case "Start deling her":
             console.log("Start deling her was clicked");
+            scenarios.forEach(s => s.classList.remove("active"));
             scenarios[1].classList.add("active");
-            scenarios[2].classList.remove("active");
-            scenarios[3].classList.remove("active");
-            scenarios[4].classList.remove("active");
-            scenarios[5].classList.remove("active");
-            scenarios[6].classList.remove("active");
-            scenarios[7].classList.remove("active");
-            scenarios[8].classList.remove("active");
-            scenarios[9].classList.remove("active");
-            scenarios[10].classList.remove("active");
-            scenarios[11].classList.remove("active");
-            scenarios[12].classList.remove("active");
-            scenarios[13].classList.remove("active");
-            scenarios[14].classList.remove("active");
-            scenarios[15].classList.remove("active");
-            scenarios[16].classList.remove("active");
-            scenarios[17].classList.remove("active");
-            scenarios[18].classList.remove("active");
-            scenarios[19].classList.remove("active");
         break;
 
         case "Start forfra":
