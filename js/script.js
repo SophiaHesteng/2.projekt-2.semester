@@ -25,7 +25,6 @@ const nextScenario = (e) => {
 
         case "Start forfra":
             console.log("Start forfra was clicked");
-
             scenarios.forEach(s => s.classList.remove("active"));
             scenarios[0].classList.add("active");
         break;
