@@ -115,7 +115,8 @@ button:hover {
 
 .warning {
   text-align: center;
-  background-color: #fff;
+  background-color: #f7c34a;
+  opacity: 80%;
   border: solid;
 }
 .warning i {
@@ -123,7 +124,7 @@ button:hover {
   padding: 0.2em;
 }
 .warning button {
-  background-color: #f7c34a;
+  background-color: #fff;
   color: #000000;
 }
 

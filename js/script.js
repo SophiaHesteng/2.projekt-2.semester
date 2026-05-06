@@ -6,6 +6,8 @@ const startButton = document.querySelector(".startknap");
 
 const btns = document.querySelectorAll("button");
 
+const forfra = document.querySelectorAll(".forfra");
+
 const scenarios = document.querySelectorAll(".scenario");
 
 const feedbacks = document.querySelectorAll(".feedback");
@@ -37,6 +39,14 @@ const nextScenario = (e) => {
             scenarios[18].classList.remove("active");
             scenarios[19].classList.remove("active");
         break;
+
+        case "Start forfra":
+            console.log("Start forfra was clicked");
+
+            scenarios.forEach(s => s.classList.remove("active"));
+            scenarios[0].classList.add("active");
+        break;
+
 // --------------------- Hotspot
         case "Du opretter et hotspot fra din mobil":
             console.log("Du opretter et hotspot fra din mobil was clicked");
@@ -164,4 +174,8 @@ const nextScenario = (e) => {
  
 for(const button of btns) {
     button.addEventListener("click", nextScenario);
+}
+
+for (const link of forfra) {
+    link.addEventListener("click", nextScenario);
 }

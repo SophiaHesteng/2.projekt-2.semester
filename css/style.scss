@@ -101,7 +101,8 @@ button{
 
 .warning{
     text-align: center;
-    background-color: #fff;
+    background-color: partial.$middleEnding;
+    opacity: 80%;
     border: solid;
     
     i{
@@ -110,7 +111,7 @@ button{
     }
 
     button{
-        background-color: partial.$middleEnding;
+        background-color: partial.$bgColor;
         color: partial.$textColor;
     }
 }
