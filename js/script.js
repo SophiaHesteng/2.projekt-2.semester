@@ -2,8 +2,6 @@
 
 //Variabler
 
-const startButton = document.querySelector(".startknap");
-
 const btns = document.querySelectorAll("button");
 
 const forfra = document.querySelectorAll(".forfra");
